@@ -1,5 +1,7 @@
 # UpGrad Linear Regression Assignment
-The project aims to analyse and model the past data from a US bike-sharing provider, BoomBikes. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
+- The project aims to analyse and model the past data from a US bike-sharing provider, BoomBikes. 
+- It will be used by the management to understand how exactly the demands vary with different features. 
+- They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -14,12 +16,12 @@ Background: <br>
 - In such an attempt, BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19. They have planned this to prepare themselves to cater to the people's needs once the situation gets better all around and stand out from other service providers and make huge profits.
 
 Business Probem: <br>
-The bike-sharing company wants to understand the factors affecting the demand for the shared bikes in the American market. The company wants to know:
-- Which variables are significant in predicting the demand for shared bikes.
-- How well those variables describe the bike demands
+- The bike-sharing company wants to understand the factors affecting the demand for the shared bikes in the American market. The company wants to know:
+    - Which variables are significant in predicting the demand for shared bikes.
+    - How well those variables describe the bike demands
 
 Dataset: <br>
-Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
+- Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
 
 ## Conclusions
 - ‘season’ is a strong driver variable 
