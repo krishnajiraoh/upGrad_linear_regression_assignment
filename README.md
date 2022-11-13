@@ -28,14 +28,17 @@ Dataset: <br>
     – maximum bikes are rented in the season 3(fall), followed by 2(summer), 4(winter), 1(spring)
 - ‘weathersit’ is a strong driver variable 
     – more bikes are rented in weathersit 1(Clear, Few clouds, Partly cloudy, Partly cloudy), followed by 2(Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist) and 3(Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds)
+- For a unit increase in season_3, i.e, if season_3 is 1, 'cnt' or y increase by 0.3334 units, provided other variables remain constant
+- Similarly, for a unit increase in weathersit_3, 'cnt' decreases by 0.3089 units
+- For a unit increase in season_2, 'cnt' increases by 0.2579 units
 - Even though 'temp' & 'atemp' showed strong correlations with 'cnt', they were not part of the final model
-    - This is because most of their variations are explained by features like season and weathersit
+    - This is because most of their variations are explained by features like season and weathersit (eliminated by RFE)
 - People rented more bikes on an average in the year 1(2019) than year 0(2018)
 - People rented more bikes on the months 7,9,6,8 than the other months
-    - However, 'mnth' is not part of the final model because most of its variations are explained by features like season
+    - However, 'mnth' is not part of the final model because most of its variations are explained by features like season (eliminated by RFE)
 - People rented more bikes on non-holidays than holidays
-- ‘weekday’ has little to no effect on the target variable
-- ‘workingday’ has little to no effect on the target variable
+- ‘weekday’ has little to no effect on the target variable (eliminated by RFE)
+- ‘workingday’ has little to no effect on the target variable (eliminated by RFE)
 
 
 ## Technologies Used
