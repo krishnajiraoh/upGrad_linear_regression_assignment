@@ -1,4 +1,4 @@
-# Project Name
+# UpGrad Linear Regression Assignment
 The project aims to analyse and model the past data from a US bike-sharing provider, BoomBikes. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 ## Table of Contents
