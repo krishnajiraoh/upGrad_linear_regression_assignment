@@ -23,10 +23,19 @@ Dataset:
 Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- ‘season’ is a strong driver variable 
+    – maximum bikes are rented in the season 3(fall), followed by 2(summer), 4(winter), 1(spring)
+- ‘weathersit’ is a strong driver variable 
+    – more bikes are rented in weathersit 1(Clear, Few clouds, Partly cloudy, Partly cloudy), followed by 2(Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist) and 3(Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds)
+- Even though 'temp' & 'atemp' showed strong correlations with 'cnt', they were not part of the final model
+    - This is because most of their variations are explained by features like season and weathersit
+- People rented more bikes on an average in the year 1(2019) than year 0(2018)
+- People rented more bikes on the months 7,9,6,8 than the other months
+    - However, 'mnth' is not part of the final model because most of its variations are explained by features like season
+- People rented more bikes on non-holidays than holidays
+- ‘weekday’ has little to no effect on the target variable
+- ‘workingday’ has little to no effect on the target variable
+
 
 ## Technologies Used
 - pandas - version 1.5.0
